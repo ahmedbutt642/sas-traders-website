@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SAS Traders - Specialized in stitching uniforms for factories and businesses.">
+  <title>SAS Traders</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="font-inter bg-gray-50 text-gray-900">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md fixed top-0 left-0 w-full z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <img src="images/logo.png" alt="SAS Traders Logo" class="h-10">
+      <ul class="hidden md:flex gap-8 font-semibold">
+        <li><a href="#about" class="hover:text-blue-600">About</a></li>
+        <li><a href="#services" class="hover:text-blue-600">Services</a></li>
+        <li><a href="#portfolio" class="hover:text-blue-600">Portfolio</a></li>
+        <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="h-screen flex flex-col justify-center items-center bg-gradient-to-r from-blue-900 to-blue-600 text-white text-center px-6" id="home">
+    <h1 class="text-5xl md:text-6xl font-poppins font-bold mb-6" data-aos="fade-up">SAS Traders</h1>
+    <p class="max-w-2xl text-lg mb-8" data-aos="fade-up" data-aos-delay="200">
+      Specialists in stitching high-quality uniforms for factories and businesses.
+    </p>
+    <a href="#contact" class="px-8 py-3 bg-white text-blue-700 rounded-xl font-semibold shadow-md hover:scale-105 transition" data-aos="fade-up" data-aos-delay="400">Get a Quote</a>
+  </section>
+
+  <!-- About -->
+  <section class="max-w-6xl mx-auto py-20 px-6" id="about">
+    <h2 class="text-3xl font-poppins font-bold text-center mb-10" data-aos="fade-up">About Us</h2>
+    <p class="text-center text-lg leading-relaxed text-gray-700" data-aos="fade-up" data-aos-delay="200">
+      At SAS Traders, we are committed to delivering premium quality stitched uniforms that combine durability, comfort, and style. 
+      Serving factories, corporate teams, and institutions with excellence.
+    </p>
+  </section>
+
+  <!-- Services -->
+  <section class="bg-gray-100 py-20 px-6" id="services">
+    <h2 class="text-3xl font-poppins font-bold text-center mb-12" data-aos="fade-up">Our Services</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition" data-aos="zoom-in">
+        <h3 class="font-semibold text-xl mb-4">Factory Uniforms</h3>
+        <p>Durable and comfortable uniforms designed for daily wear in tough environments.</p>
+      </div>
+      <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition" data-aos="zoom-in" data-aos-delay="200">
+        <h3 class="font-semibold text-xl mb-4">Corporate Uniforms</h3>
+        <p>Professional attire tailored to reflect your company’s brand and values.</p>
+      </div>
+      <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition" data-aos="zoom-in" data-aos-delay="400">
+        <h3 class="font-semibold text-xl mb-4">Custom Orders</h3>
+        <p>Custom stitching and branding for institutions, schools, and businesses.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="max-w-6xl mx-auto py-20 px-6" id="portfolio">
+    <h2 class="text-3xl font-poppins font-bold text-center mb-12" data-aos="fade-up">Our Work</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <img src="images/sample1.jpg" alt="Uniform sample" class="rounded-xl shadow-md hover:scale-105 transition" data-aos="fade-up">
+      <img src="images/sample2.jpg" alt="Uniform sample" class="rounded-xl shadow-md hover:scale-105 transition" data-aos="fade-up" data-aos-delay="200">
+      <img src="images/sample3.jpg" alt="Uniform sample" class="rounded-xl shadow-md hover:scale-105 transition" data-aos="fade-up" data-aos-delay="400">
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="bg-blue-900 text-white py-20 px-6" id="contact">
+    <h2 class="text-3xl font-poppins font-bold text-center mb-10" data-aos="fade-up">Contact Us</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST" class="max-w-3xl mx-auto grid gap-6" data-aos="fade-up" data-aos-delay="200">
+      <input type="text" name="name" placeholder="Your Name" class="p-4 rounded-lg text-black" required>
+      <input type="email" name="email" placeholder="Your Email" class="p-4 rounded-lg text-black" required>
+      <textarea rows="4" name="message" placeholder="Your Message" class="p-4 rounded-lg text-black" required></textarea>
+      <button type="submit" class="px-6 py-3 bg-white text-blue-900 font-semibold rounded-lg hover:scale-105 transition">Send Message</button>
+    </form>
+    <p class="text-center mt-4 text-gray-300">Powered by Formspree</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 text-center py-6">
+    <p>&copy; 2025 SAS Traders. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
